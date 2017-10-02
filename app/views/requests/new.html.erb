@@ -1,39 +1,35 @@
 <% cache do %>
-<div class = "headerdiv" id = "herodiv">
-      
-      <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12"  id = "rightheaderdiv">
-        <img src="https://s3-us-west-1.amazonaws.com/tdcdigitalmedia/tdclogo3d2.svg" style = "height: 50%; width: 50%; padding: 10%; margin: auto auto;"/>
+<div class = "headerdiv">     
+      <div class = "col-lg-6 col-md-12 col-sm-12 col-xs-12" id = "leftheaderdiv">
+        <img src="https://s3-us-west-1.amazonaws.com/tdcdigitalmedia/tdclogo3d2.svg" id = "mainlogo"/>
       </div>
-
-      <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12" id = "leftheaderdiv" style = "margin-top: 25em; text-align: left;">
-        <p style = "font-size: 4em; font-weight: bold;">PROJECT PLANNER</p>        
+      <div class = "col-lg-6 col-md-12 col-sm-12 col-xs-12" id = "leftheaderdiv">
+        <p id = "headerdivp">PROJECT PLANNER</p>        
       </div>
 </div>
 
-<div class = "col-sm-12 col-md-12 col-lg-12" style = "min-height: 700px; background-color: white;">
+<div class = "col-sm-12 col-md-12 col-lg-12 col-xs-12" id = "formdiv" >
 
-  <div class = "col-sm-3 col-md-3 col-lg-3">
+  <div class = "col-sm-3 col-md-3 col-lg-3 col-xs-3">
   </div>
 
-  <div class = "col-sm-6 col-md-6 col-lg-6" style = "text-align: center; ">
+  <div class = "col-sm-6 col-md-6 col-lg-6 col-xs-6" style = "text-align: center; ">
   
-    <strong><p style = "font-size: 3em;color: #000046; font-family: 'Playfair Display', serif; margin: 10px;text-align: center;">READY? LET'S DO THIS!</p></strong>
+    <strong><p id = "formptag">READY? LET'S DO THIS!</p></strong>
 
     <br>
 
-    <strong><p style = "font-size: 1em; color: #000046; margin: 10px; font-family: 'Playfair Display', serif; text-align: center;">For new business inquiries, please fill out this form or contact us directly: sales@tdcdigitalmedia.com</p></strong>
-
-    <br>
+    <strong><p id = "#formpsmalltag">For new business inquiries, please fill out this form or contact us directly: sales@tdcdigitalmedia.com</p></strong>
 
     <hr>
-
-    <% end %>
   
   	<%= render 'form', request: @request %>
   	
   </div>
 
-  <div class = "col-sm-3 col-md-3 col-lg-3">
+  <div class = "col-sm-3 col-md-3 col-lg-3 col-xs-3">
   </div>
 
 </div>
+
+<% end %>
