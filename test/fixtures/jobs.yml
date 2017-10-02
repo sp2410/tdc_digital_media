@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  responsibilities: MyString
+  qualifications: MyString
+  benefits: MyString
+  location: MyString
+  title: MyString
+
+two:
+  responsibilities: MyString
+  qualifications: MyString
+  benefits: MyString
+  location: MyString
+  title: MyString
