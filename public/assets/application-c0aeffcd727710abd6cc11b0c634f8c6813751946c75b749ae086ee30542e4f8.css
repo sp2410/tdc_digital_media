@@ -10,9 +10,10 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_self 
- *= require rails_bootstrap_forms
+
+
  */
+
 
 html,body
 {
@@ -5289,3 +5290,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 /*# sourceMappingURL=hover.css.map */
+.rails-bootstrap-forms-date-select select,
+.rails-bootstrap-forms-time-select select,
+.rails-bootstrap-forms-datetime-select select {
+  display: inline-block;
+  width: auto;
+}
+
+.rails-bootstrap-forms-error-summary {
+  margin-top: 10px;
+}
