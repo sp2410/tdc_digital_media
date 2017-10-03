@@ -32,8 +32,14 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# gem "blogit"
+# gem "acts-as-taggable-on"
 
 gem 'bootstrap_form'
+
+gem 'social-share-button', github: "huacnlee/social-share-button"
+
+gem 'ckeditor', '~> 4.1'
 
 gem 'figaro'
 gem 'sendgrid-ruby'

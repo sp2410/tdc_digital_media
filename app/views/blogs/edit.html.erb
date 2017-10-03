@@ -1,6 +1,27 @@
-<h1>Editing Blog</h1>
+<% cache do %>
+	<div class = "headerdiv">     
+	      <div class = "col-lg-6 col-md-12 col-sm-12 col-xs-12" id = "leftheaderdiv">
+	        <img src="https://s3-us-west-1.amazonaws.com/tdcdigitalmedia/tdclogo3d2.svg" id = "mainlogo"/>
+	      </div>
+	      <div class = "col-lg-6 col-md-12 col-sm-12 col-xs-12" id = "leftheaderdiv">
+	        <p id = "headerdivp">EDIT BLOG</p>        
+	      </div>
+	</div>
 
-<%= render 'form', blog: @blog %>
+	<div class = "col-sm-12 col-md-12 col-lg-12 col-xs-12" id = "formdiv" >
 
-<%= link_to 'Show', @blog %> |
-<%= link_to 'Back', blogs_path %>
+	  <div class = "col-sm-3 col-md-3 col-lg-3 col-xs-3">
+	  </div>
+
+	  <div class = "col-sm-6 col-md-6 col-lg-6 col-xs-6" style = "text-align: center; ">
+	      
+	  	<%= render 'form', blog: @blog %>
+	  	
+	  </div>
+
+	  <div class = "col-sm-3 col-md-3 col-lg-3 col-xs-3">
+	  </div>
+
+	</div>
+
+<% end %>
