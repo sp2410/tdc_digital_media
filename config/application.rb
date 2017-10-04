@@ -13,6 +13,7 @@ module Tdcdigitalmedia
     config.assets.precompile += Ckeditor.assets
 	config.assets.precompile += %w(#{config.root}/app/assets/javascript/ckeditor/* )
 	config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
+  
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
