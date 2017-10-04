@@ -35,7 +35,13 @@ gem 'jbuilder', '~> 2.5'
 # gem "blogit"
 # gem "acts-as-taggable-on"
 
+gem "fog"
+
+gem 'figaro'
+
 gem 'bootstrap_form'
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.3'
 
 gem 'social-share-button', github: "huacnlee/social-share-button"
 
