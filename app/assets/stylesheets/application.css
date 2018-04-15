@@ -140,6 +140,8 @@ ul.dropdown-menu> li > a:active{
 	width: 100%;		
 	background: transparent;	
 	color: #fff;
+	display: flex;
+  	align-items: center;
 	float: left;
 	min-height: 750px;	
 	background: #000046;  /* fallback for old browsers */
@@ -150,7 +152,10 @@ ul.dropdown-menu> li > a:active{
 }
 
 
-.headerdiv:before{
+
+
+
+/*.headerdiv:before{
     content: '';
     background: url("https://s3-us-west-1.amazonaws.com/tdcdigitalmedia/tdcbg2.svg") 100% 20% no-repeat;    
     -webkit-background-size: cover;
@@ -161,7 +166,7 @@ ul.dropdown-menu> li > a:active{
     overflow: hidden;    
     position: absolute;      
 
-}
+}*/
 
 .headerdiv h3{
 	font-family: 'Oxygen', sans-serif;
@@ -354,8 +359,13 @@ background-color: #242424;
 }
 
 
-.headerdiv > #leftheaderdiv{
+.headerdiv > .leftheaderdiv{
 	min-height: 750px; 
+	text-align: center;
+}
+
+.headerdiv > .leftheaderdiv2{
+	min-height: 150px; 
 	text-align: center;
 }
 
@@ -520,6 +530,22 @@ and (min-device-width : 320px)
 and (max-device-width : 767px) {
 
 
+.headerdiv{	
+	width: 100%;		
+	background: transparent;	
+	color: #fff;
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+	float: left;
+	min-height: 750px;	
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */		
+	
+			
+}
+
 
 ul.nav.navbar-nav.navbar-left > li > img{
 	margin-left: 1em;
@@ -533,11 +559,27 @@ ul.nav.navbar-nav.navbar-left > li > img{
 @media only screen
 and (min-width : 321px) {
 
-.headerdiv > #leftheaderdiv{
+.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
 
+
+.headerdiv{	
+	width: 100%;		
+	background: transparent;	
+	color: #fff;
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+	float: left;
+	min-height: 750px;	
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */		
+	
+			
+}
 
 .headerdiv > #rightheaderdiv{
 	
@@ -554,7 +596,7 @@ and (min-width : 321px) {
 	#mainlogo{
 	height: 100%; 
 	width: 100%; 
-	padding: 15%; 
+	padding: 2%; 
 	margin: auto auto; 
 	vertical-align: middle; 
 	display: inline-block; 
@@ -564,9 +606,10 @@ and (min-width : 321px) {
 #headerdivp{
 	font-size: 4em; 
 	font-weight: bold;
-	line-height: 60px; 
+	line-height: 10px; 
 	padding: 1% 0; 
 	margin: auto auto;
+	text-align: center;
 
 }
 
@@ -577,7 +620,23 @@ and (min-width : 321px) {
 @media only screen
 and (max-width : 320px) {
 
-	.headerdiv > #leftheaderdiv{
+
+.headerdiv{	
+	width: 100%;		
+	background: transparent;	
+	color: #fff;
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+	float: left;
+	min-height: 750px;	
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */		
+	
+			
+}
+	.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
@@ -598,7 +657,7 @@ and (max-width : 320px) {
 	#mainlogo{
 	height: 100%; 
 	width: 100%; 
-	padding: 15%; 
+	padding: 6%; 
 	margin: auto auto; 
 	vertical-align: middle; 
 	display: inline-block; 
@@ -620,7 +679,23 @@ and (max-width : 320px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
-	.headerdiv > #leftheaderdiv{
+
+.headerdiv{	
+	width: 100%;		
+	background: transparent;	
+	color: #fff;
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+	float: left;
+	min-height: 750px;	
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */		
+	
+			
+}
+	.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
@@ -640,7 +715,7 @@ and (max-device-width : 1024px) {
 	#mainlogo{
 	height: 100%; 
 	width: 100%; 
-	padding: 15%; 
+	padding: 12%; 
 	margin: auto auto; 
 	vertical-align: middle; 
 	display: inline-block; 
@@ -665,7 +740,23 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
 
-	.headerdiv > #leftheaderdiv{
+
+.headerdiv{	
+	width: 100%;		
+	background: transparent;	
+	color: #fff;
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+	float: left;
+	min-height: 750px;	
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */		
+	
+			
+}
+	.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
@@ -685,11 +776,12 @@ and (orientation : landscape) {
 	#mainlogo{
 	height: 100%; 
 	width: 100%; 
-	padding: 15%; 
+	padding: 12%; 
 	margin: auto auto; 
 	vertical-align: middle; 
 	display: inline-block; 
 }
+
 
 
 #headerdivp{
@@ -709,7 +801,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 
-	.headerdiv > #leftheaderdiv{
+
+	.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
@@ -729,7 +822,7 @@ and (orientation : portrait) {
 	#mainlogo{
 	height: 100%; 
 	width: 100%; 
-	padding: 15%; 
+	padding: 12%; 
 	margin: auto auto; 
 	vertical-align: middle; 
 	display: inline-block; 
@@ -751,7 +844,8 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
 
-	.headerdiv > #leftheaderdiv{
+
+	.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
@@ -793,7 +887,7 @@ and (min-width : 1224px) {
 @media only screen
 and (min-width : 1824px) {
 
-	.headerdiv > #leftheaderdiv{
+	.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
@@ -836,7 +930,22 @@ and (min-width : 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 
-.headerdiv > #leftheaderdiv{
+.headerdiv{	
+	width: 100%;		
+	background: transparent;	
+	color: #fff;
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+	float: left;
+	min-height: 750px;	
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */		
+	
+			
+}
+.headerdiv > .leftheaderdiv{
 	min-height: 100px; 
 	text-align: center;
 }
@@ -856,10 +965,11 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	#mainlogo{
 	height: 100%; 
 	width: 100%; 
-	padding: 15%; 
+	padding: 12%; 
 	margin: auto auto; 
 	vertical-align: middle; 
 	display: inline-block; 
+
 }
 
 
